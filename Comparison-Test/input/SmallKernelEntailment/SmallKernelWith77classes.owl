@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#"
+     xml:base="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#A -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#A">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B1"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B10"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B11"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B12"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B13"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B14"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B15"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B16"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B17"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B18"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B19"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B2"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B20"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B21"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B22"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B23"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B24"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B25"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B26"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B27"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B28"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B29"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B3"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B30"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B31"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B32"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B33"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B34"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B35"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B36"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B37"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B38"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B39"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B4"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B40"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B41"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B42"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B43"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B44"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B45"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B46"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B47"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B48"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B49"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B5"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B50"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B51"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B52"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B53"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B54"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B55"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B56"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B57"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B58"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B59"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B6"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B60"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B61"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B62"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B63"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B64"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B65"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B66"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B67"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B68"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B69"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B7"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B70"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B71"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B72"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B73"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B74"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B75"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B76"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B77"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B8"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B1 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B1">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B10 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B10">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B11 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B11">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B12 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B12">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B13 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B13">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B14 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B14">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B15 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B15">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B16 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B16">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B17 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B17">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B18 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B18">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B19 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B19">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B2 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B2">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B20 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B20">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B21 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B21">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B22 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B22">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B23 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B23">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B24 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B24">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B25 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B25">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B26 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B26">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B27 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B27">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B28 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B28">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B29 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B29">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B3 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B3">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B30 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B30">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B31 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B31">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B32 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B32">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B33 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B33">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B34 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B34">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B35 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B35">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B36 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B36">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B37 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B37">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B38 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B38">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B39 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B39">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B4 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B4">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B40 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B40">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B41 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B41">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B42 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B42">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B43 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B43">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B44 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B44">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B45 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B45">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B46 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B46">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B47 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B47">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B48 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B48">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B49 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B49">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B5 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B5">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B50 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B50">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B51 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B51">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B52 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B52">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B53 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B53">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B54 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B54">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B55 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B55">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B56 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B56">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B57 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B57">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B58 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B58">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B59 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B59">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B6 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B6">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B60 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B60">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B61 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B61">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B62 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B62">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B63 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B63">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B64 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B64">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B65 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B65">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B66 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B66">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B67 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B67">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B68 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B68">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B69 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B69">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B7 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B7">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B70 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B70">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B71 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B71">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B72 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B72">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B73 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B73">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B74 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B74">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B75 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B75">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B76 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B76">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B77 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B77">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B8 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B8">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B9 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#B9">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith77Classes.owl#C"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

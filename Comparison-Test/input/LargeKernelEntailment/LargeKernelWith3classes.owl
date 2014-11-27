@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#"
+     xml:base="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3Prime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#a -->
+
+    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#a">
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0"/>
+                    <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0Prime"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B0Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B1Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B3Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith3Classes.owl#B2Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

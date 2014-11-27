@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ant-template" default="build">
+	<target name="clean">
+		<delete dir="bin" />
+	</target>
+	<target name="init">
+		<mkdir dir="bin"/>
+	</target>
+	<path id="compile.classpath">
+		<!-- Adds provided dependancies -->
+		<fileset dir="lib">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<target name="compile" depends="init" >
+		<javac destdir="bin" debug="true" srcdir="src">
+			<classpath refid="compile.classpath"/>
+		</javac>
+	</target>
+	<target name="build" depends="compile">
+	</target>
+</project>

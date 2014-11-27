@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/owlexplanation-1.0.3-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-dig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-owlapiv3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-query.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-datatypes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-owlapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-modularity.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/HermiT-1.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aterm-java-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-jena.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/telemetry-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-rules.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-pellint.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-explanation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pellet-cli.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/owlapi-distribution-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

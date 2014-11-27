@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#"
+     xml:base="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#A -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#A">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B1"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B10"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B11"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B2"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B3"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B4"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B5"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B6"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B7"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B8"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B1 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B1">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B10 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B10">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B11 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B11">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B2 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B2">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B3 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B3">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B4 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B4">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B5 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B5">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B6 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B6">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B7 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B7">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B8 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B8">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B9 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#B9">
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/SmallKernelWith11Classes.owl#C"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

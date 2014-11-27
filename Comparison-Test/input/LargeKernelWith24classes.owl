@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#"
+     xml:base="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8Prime"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9 -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9"/>
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9Prime -->
+
+    <owl:Class rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9Prime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#a -->
+
+    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#a">
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24"/>
+                            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24Prime"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0"/>
+                    <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0Prime"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B0Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B24Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B21Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B15Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B14Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B3Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B9Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B13Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B23Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B22Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B18Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B17Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B16Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B4Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B12Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B6Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B5Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B8Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B7Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B2Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B1Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B11Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B10Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+    <owl:Class>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20"/>
+        <rdfs:subClassOf rdf:resource="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B20Prime"/>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19"/>
+            <rdf:Description rdf:about="http://www.ime.usp.br/liamf/ontologies/LargeKernelWith24Classes.owl#B19Prime"/>
+        </owl:unionOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+
