@@ -1,11 +1,9 @@
 package tests.remainder;
 
 import algorithms.blackbox.BlackBox;
-import algorithms.blackbox.BlackBoxTestRunner;
 import algorithms.blackbox.remainder.*;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
-import util.SanityChecker;
 import util.Util;
 
 import java.io.File;

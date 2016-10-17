@@ -15,12 +15,9 @@ public abstract class BlackBox {
 
 	public BlackBoxContractionStrategy contractionStrategy;
 
-	private boolean timedOut;
-
 	public BlackBox(BlackBoxExpansionStrategy expansionStrategy, BlackBoxContractionStrategy contractionStrategy) {
 		this.expansionStrategy = expansionStrategy;
 		this.contractionStrategy = contractionStrategy;
-		this.timedOut = false;
 	}
 
 
@@ -62,7 +59,6 @@ public abstract class BlackBox {
 	}
 
 	public void reset() {
-		this.timedOut=false;
 		this.expansionStrategy.reset();
 		this.contractionStrategy.reset();
 

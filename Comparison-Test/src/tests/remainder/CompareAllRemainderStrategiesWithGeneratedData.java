@@ -8,6 +8,7 @@ import util.SanityChecker;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.Set;
@@ -41,8 +42,6 @@ public class CompareAllRemainderStrategiesWithGeneratedData {
 
 	public static void main(String[] args) throws OWLOntologyCreationException, InterruptedException, FileNotFoundException {
 
-		CompareAllRemainderStrategiesWithGeneratedData test = new CompareAllRemainderStrategiesWithGeneratedData();
-
 		String type = "";
 		if (args[0].equals("-large")) {
 			type = LARGE_KERNEL_TEST_TYPE;
@@ -54,7 +53,7 @@ public class CompareAllRemainderStrategiesWithGeneratedData {
 
 		String blackBoxName = args[2];
 
-		BlackBox selectedBlackBox = test.operators.get(blackBoxName);
+		BlackBox selectedBlackBox = CompareAllRemainderStrategiesWithGeneratedData.operators.get(blackBoxName);
 
 
 		System.setErr(new PrintStream("/tmp/remaindertest.log"));
@@ -66,29 +65,15 @@ public class CompareAllRemainderStrategiesWithGeneratedData {
 
 		System.out.format("%-15s", "size");
 
-		System.out.format("%-15s", "time");
-
-		System.out.format("%-15s", "exp_time");
-
-		System.out.format("%-15s", "cont_time");
-
-		System.out.format("%-15s", "RC");
-
 		System.out.format("%-20s", "ont_mean_size");
-
-		System.out.format("%-20s", "RC_mean_time");
-
-		System.out.format("%-20s", "RC_total_time");
-
-		System.out.format("%-15s", "mem");
 
 		System.out.format("%-10s", "sanity");
 
 		System.out.println();
 
-
 		selectedBlackBox.reset();
-		OWLOntology ontology = manager.loadOntologyFromOntologyDocument(new File("../input/" + type + "KernelEntailment/" + type + "KernelWith" + size + "classes.owl"));
+		File file = new File("input/" + type + "KernelEntailment/" + type + "KernelWith" + size + "classes.owl");
+		OWLOntology ontology = manager.loadOntologyFromOntologyDocument(file);
 		System.out.format("%-10d", size);
 		System.out.format("%-10d", ontology.getAxiomCount());
 		IRI ontologyIRI = IRI.create("http://www.ime.usp.br/liamf/ontologies/" + type + "KernelWith" + size + "Classes.owl");
@@ -113,21 +98,7 @@ public class CompareAllRemainderStrategiesWithGeneratedData {
 
 		System.out.format("%-15d", ((remainder != null) ? remainder.size() : -1));
 
-		System.out.format("%-15.2f", selectedBlackBox.getTotalTime());
-
-		System.out.format("%-15.2f", selectedBlackBox.getExpansionTotalTime());
-
-		System.out.format("%-15.2f", selectedBlackBox.getContractionTotalTime());
-
-		System.out.format("%-15d", selectedBlackBox.getTotalReasonerCalls());
-
 		System.out.format("%-20.2f", selectedBlackBox.getReasoningOntologiesMeanSize());
-
-		System.out.format("%-20.2f", selectedBlackBox.getMeanReasoningTime());
-
-		System.out.format("%-20.2f", selectedBlackBox.getTotalReasonerCallTime());
-
-		System.out.format("%-15d", selectedBlackBox.getUsedMemory());
 
 		System.out.format("%-10s", SanityChecker.checkSingleRemainderSanity(manager.createOntology(kb), remainder, entailment));
 

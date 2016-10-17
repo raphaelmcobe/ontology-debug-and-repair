@@ -7,8 +7,6 @@ import org.semanticweb.owlapi.model.OWLOntologyManager;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Set;
 
 /**

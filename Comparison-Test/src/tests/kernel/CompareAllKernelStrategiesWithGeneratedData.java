@@ -42,8 +42,6 @@ public class CompareAllKernelStrategiesWithGeneratedData {
 
 	public static void main(String[] args) throws OWLOntologyCreationException, InterruptedException, FileNotFoundException {
 
-		CompareAllKernelStrategiesWithGeneratedData test = new CompareAllKernelStrategiesWithGeneratedData();
-
 		String type = "";
 		if (args[0].equals("-large")) {
 			type = LARGE_KERNEL_TEST_TYPE;
@@ -55,7 +53,7 @@ public class CompareAllKernelStrategiesWithGeneratedData {
 
 		String blackBoxName = args[2];
 
-		BlackBox selectedBlackBox = test.operators.get(blackBoxName);
+		BlackBox selectedBlackBox = CompareAllKernelStrategiesWithGeneratedData.operators.get(blackBoxName);
 
 
 		System.setErr(new PrintStream("/tmp/kerneltest.log"));

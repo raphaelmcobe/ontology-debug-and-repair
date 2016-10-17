@@ -5,7 +5,6 @@ import org.semanticweb.owlapi.model.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Set;
 
 /**
  * Created by rmcobe on 10/12/14.
@@ -20,7 +19,7 @@ public class ExtractEntailments {
         OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
         OWLOntology entailments = manager.loadOntologyFromOntologyDocument(new File("../BioPortal/entailed/"+ontologyFileName + "/" + "selectedentailments.xml"));
 
-        Set<OWLSubClassOfAxiom> allAxioms = entailments.getAxioms(AxiomType.SUBCLASS_OF);
+        entailments.getAxioms(AxiomType.SUBCLASS_OF);
 
 
         for (OWLAxiom entailment : entailments.getAxioms()){

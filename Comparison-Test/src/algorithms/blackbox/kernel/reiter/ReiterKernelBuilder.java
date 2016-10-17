@@ -6,8 +6,6 @@ import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 /**
