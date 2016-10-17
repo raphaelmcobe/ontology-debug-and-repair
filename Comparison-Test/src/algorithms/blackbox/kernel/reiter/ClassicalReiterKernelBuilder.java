@@ -18,11 +18,8 @@ import java.util.Set;
  */
 public class ClassicalReiterKernelBuilder extends ReiterKernelBuilder {
 
-	private int earlyPathTermination;
-
 	public ClassicalReiterKernelBuilder(BlackBox blackBox, OWLOntologyManager manager) {
 		super(blackBox, manager);
-		this.earlyPathTermination=0;
 	}
 
 	public Set<Set<OWLAxiom>> kernelSet(Set<OWLAxiom> kb, OWLAxiom entailment) throws OWLOntologyCreationException {

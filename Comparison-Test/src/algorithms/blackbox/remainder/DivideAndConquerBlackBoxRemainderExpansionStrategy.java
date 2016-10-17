@@ -2,7 +2,6 @@ package algorithms.blackbox.remainder;
 
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
-import util.Util;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;

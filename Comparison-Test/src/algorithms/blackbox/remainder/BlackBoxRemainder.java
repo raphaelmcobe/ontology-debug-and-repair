@@ -3,7 +3,6 @@ package algorithms.blackbox.remainder;
 import algorithms.blackbox.BlackBox;
 import algorithms.blackbox.BlackBoxContractionStrategy;
 import algorithms.blackbox.BlackBoxExpansionStrategy;
-import com.clarkparsia.owlapiv3.OWL;
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 

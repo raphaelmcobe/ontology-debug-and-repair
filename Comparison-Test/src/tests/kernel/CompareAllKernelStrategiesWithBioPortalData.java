@@ -4,7 +4,6 @@ import algorithms.blackbox.BlackBox;
 import algorithms.blackbox.kernel.*;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.*;
-import util.SanityChecker;
 import util.Util;
 
 import java.io.File;
@@ -32,9 +31,6 @@ public class CompareAllKernelStrategiesWithBioPortalData {
         operators.put("sre_swc", new BlackBoxKernel(new SyntaticRelevanceBlackboxKernelExpansionStrategy(manager), new SlidingWindowBlackBoxKernelContractionStrategy(manager, 10)));
         operators.put("sre_dacc", new BlackBoxKernel(new SyntaticRelevanceBlackboxKernelExpansionStrategy(manager), new DivideAndConquerBlackBoxKernelContractionStrategy(manager)));
         operators.put("hr_sre_dacc", new HorridgeBlackBoxKernel(manager));
-
-
-        CompareAllKernelStrategiesWithBioPortalData test = new CompareAllKernelStrategiesWithBioPortalData();
 
 
         String ontologyFileName = args[0];

@@ -42,10 +42,8 @@ public class ClassicalResinaRemainderBuilder extends ResinaRemainderBuilder {
 		Set<OWLAxiom> hn = null;
 		boolean condition = false;
 		if (isConsistencyCheck) {
-			double time = System.currentTimeMillis();
 			condition = reasoner.isConsistent();
 		} else {
-			double time = System.currentTimeMillis();
 			condition = !reasoner.isEntailed(entailment);
 		}
 		if (condition) {
